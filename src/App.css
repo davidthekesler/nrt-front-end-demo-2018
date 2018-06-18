@@ -1,0 +1,251 @@
+* {-webkit-font-smoothing: antialiased;}
+
+.appHeader {
+    color: #575757;
+    background-color: #c7c7c7;
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;   
+    box-shadow: 10px color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+.headerText {
+    font-family: "Hind Siligury", sans-serif;
+    font-size: 24px;
+    font-weight: 100;   
+    letter-spacing: 4px;
+    padding: 40px;
+}
+
+#propertyTitle {
+    padding-top: 140px; 
+    color: #575757;
+}
+
+#propertySection {
+    width: 95%;
+    margin-left: 40px;
+    background-color: white;
+    color: #575757;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    border-bottom: .5px solid #c7c7c7;
+    
+}
+
+.propertyPriceLabel {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    height: 10px;
+    font-weight: 100;   
+    letter-spacing: 1px;
+}
+
+.propertyImage {
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 3%;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.moreInfoContainer {
+    flex-basis: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.roomsTableColumn {
+    width: 150px;
+}
+
+.infoTableColumn {
+    width: 100px;
+}
+
+#moreInfoLine {
+    height: 300px;
+    width: 1px;
+    margin-left: 150px;
+    margin-right: 40px;
+    border-left: .5px solid #c7c7c7;
+}
+
+
+.labels {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #575757;
+}
+
+.paragraphs {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 100;  
+    color: #b4b4b4;
+    letter-spacing: 1px;
+}
+
+.moreInfoText {
+    width: 120px;
+}
+
+#weatherSection {
+    width: 100%;
+    height: 280px;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    background-color: #f1f1f1;
+    color: #575757;
+}
+
+.input {
+    height: 50px;
+    width: 300px;
+    padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    color: #737373;
+    font-size: 20px;
+    border-radius: 5%;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.input:focus {outline:0;}
+
+.inputItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.outputItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #5778a4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.button:hover {
+    background-color: #4a678d;
+    color: white;
+}
+
+.button:active {
+    background-color: #5778a4;
+    color: white;
+}
+
+.button:focus {outline:0;}
+
+
+#scheduleSection {
+    width: 100%;
+    height: 380px;
+    background-color: white;
+    color: #575757;
+}
+
+#scheduleDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #5778a4;;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+
+  .thankYou {
+    width: 120px;
+    height: 120px;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 20px;
+
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.appFooter {
+    height: 200px;
+    width: 100%;
+    background-color: #737373;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerText {
+    font-family: "Hind Siligury", sans-serif;
+    font-size: 24px;
+    padding-top: 40px;
+    font-weight: 100;   
+    letter-spacing: 4px;
+}
+
+.titlesText {
+    font-family: "Hind Siligury", sans-serif;
+    font-size: 24px;
+    font-weight: 500;   
+    letter-spacing: 4px;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
