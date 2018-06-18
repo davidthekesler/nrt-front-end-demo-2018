@@ -1,5 +1,3 @@
-Author: David Kesler, thedavidkesler@gmail.com
-
 ### `startup instructions with NPM`
 
 1) Download from github 
