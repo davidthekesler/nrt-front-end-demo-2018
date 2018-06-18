@@ -8,7 +8,7 @@ Author: David Kesler, thedavidkesler@gmail.com
 
 NOTE: relevant files are:
 
-App.css
+src/App.css
 
 All files in src/Components.
 
